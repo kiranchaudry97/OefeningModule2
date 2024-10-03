@@ -16,7 +16,7 @@ let uitkomst = Getal1 + Getal2
 if(uitkomst % 2 == 0){ 
     console.log( "Je getal" + uitkomst + " ligt tussen"  + maximum + "en"   + minimum);
 }else{
-    console.log("Je getal " + uitkomst + "ligt tussen"  + minimum + "en"   + maximum);
+    console.log("Je getal " + uitkomst + "ligt niet tussen"  + minimum + "en"   + maximum);
 }
 
 process.exit();
